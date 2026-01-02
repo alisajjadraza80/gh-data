@@ -29,7 +29,7 @@ jobs:
         uses: actions/upload-artifact@v6.0.0
         with:
           name: dist-files
-          path: !
+          path: |
              dist
              package.json
   deploy:
